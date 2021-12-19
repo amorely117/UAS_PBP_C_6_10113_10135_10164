@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".ProfileActivity">
+    tools:context=".ProfileActivity"
+    android:background="@drawable/frame">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,6 +21,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
             android:text="@string/profil_akun" />
 
         <androidx.cardview.widget.CardView
@@ -92,7 +95,7 @@
 
         <Button
             android:id="@+id/btnCancel"
-            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:backgroundTint="#C44D56"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
@@ -101,11 +104,12 @@
 
         <Button
             android:id="@+id/btnSave"
+            android:backgroundTint="#037A33"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
             android:layout_weight="1"
-            android:text="@string/save" />
+            android:text="@string/save"/>
 
     </LinearLayout>
 
