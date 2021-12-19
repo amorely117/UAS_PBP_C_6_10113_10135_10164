@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="175dp"
+    android:layout_marginStart="30dp"
+    android:layout_marginEnd="30dp"
+    android:layout_marginTop="15dp"
+    android:id="@+id/cvBooking"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="10dp">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15dp">
+
+        <LinearLayout
+            android:id="@+id/layoutTglService"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/tvTglService"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:text="@string/tanggal_service"
+                android:textColor="@color/black"
+                android:layout_marginEnd="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tglService"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="@string/tanggal_service"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutWaktuService"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layoutTglService"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:id="@+id/tvWaktuService"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:text="@string/waktu_service"
+                android:layout_marginEnd="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/waktuService"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/waktu_service" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutJenisService"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layoutWaktuService"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:id="@+id/tvJenisService"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:text="@string/jenis_service"
+                android:layout_marginEnd="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/jenisService"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="@string/jenis_service"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutJenisKendaraan"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layoutJenisService"
+            android:layout_marginBottom="15dp">
+            <TextView
+                android:id="@+id/tvJenisKendaraan"
+                android:layout_width="125dp"
+                android:layout_marginEnd="15dp"
+                android:layout_height="wrap_content"
+                android:text="@string/jenis_kendaraan"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/jenisKendaraan"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="@string/jenis_kendaraan"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            app:tint="#EF5350"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_below="@id/layoutJenisKendaraan"
+            android:src="@drawable/ic_baseline_delete_24"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

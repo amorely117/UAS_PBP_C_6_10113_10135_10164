@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "62374879678",
+    "project_id": "transvice-test",
+    "storage_bucket": "transvice-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62374879678:android:fb3067175730bc5be8d9ef",
+        "android_client_info": {
+          "package_name": "com.aurelia_truly_jessica.transvice_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62374879678-fftuqt3o8q77d98is2k8gs5e0tncte98.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnVlFTj8TBu5JWo8yMoXACsMFIotZOtMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "62374879678-fftuqt3o8q77d98is2k8gs5e0tncte98.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
